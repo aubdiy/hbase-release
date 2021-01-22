@@ -1,5 +1,6 @@
 The following issues are included over Apache HBase 2.1.6
 
+BUG-125018 HBASE-24515 batch Increment/Append fails when retrying the RPC
 BUG-122228 HBASE-15519 Add per-user metrics with lossy counting
 BUG-122227 HBASE-23054 Remove synchronization block from MetaTableMetrics and fix LossyCounting algorithm
 BUG-122138 Upgrade jackson to 2.10.0 in HBase
